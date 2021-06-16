@@ -243,8 +243,8 @@ int main()
             printf("Libiya : Lets Play Snake Water Gun Game. Rules are- Snake > Water, Gun > Snake & Water > Gun---Lets Go:)\n");
 
             printf("\n");
-        int c;
-            printf("%s : ", name);
+            int c;
+            
             
               char you, comp;
               int y;
@@ -266,7 +266,8 @@ int main()
                     comp = 'g';
                 }
 
-                printf("Enter 's' for snake, 'w' foe water and 'g' for gun\n");
+                printf("Enter 's' for snake, 'w' foe water and 'g' for gun\n\n");
+                printf("%s : ", name);
                 fflush;
                 scanf("%s", &you);
                 int result = snakeWaterGun(you, comp);
